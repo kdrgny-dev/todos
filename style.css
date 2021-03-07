@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #444;
+  font-family: 'Roboto', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  color: pink;
+  font-size: 100px;
+  text-align: center;
+  opacity: 0.5;
+}
+
+form {
+  max-width: 100%;
+  width: 400px;
+  -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+  border: none;
+  color: #444;
+  font-size: 24px;
+  padding: 10px;
+  display: block;
+  width: 100%;
+}
+
+.input::-webkit-input-placeholder {
+  color: #d5d5d5;
+}
+
+.input:-ms-input-placeholder {
+  color: #d5d5d5;
+}
+
+.input::-ms-input-placeholder {
+  color: #d5d5d5;
+}
+
+.input::placeholder {
+  color: #d5d5d5;
+}
+
+.input:focus {
+  outline-color: hotpink;
+}
+
+.todos {
+  background-color: #fff;
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+.todos li {
+  border-top: 1px solid #e5e5e5;
+  cursor: pointer;
+  font-size: 22px;
+  padding: 10px;
+}
+
+.todos li.completed {
+  color: #b6b6b6;
+  text-decoration: line-through;
+}
+
+.notification {
+  text-align: center;
+  color: gray;
+  opacity: 0.3;
+  font-size: 12px;
+}
+/*# sourceMappingURL=style.css.map */
